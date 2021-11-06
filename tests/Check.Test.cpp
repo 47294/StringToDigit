@@ -17,10 +17,7 @@ TEST(Desyat, Test3)
 }
 TEST(Desyat, Test4)
 {
-	//ASSERT_DOUBLE_EQUAL();
+	ASSERT_DOUBLE_EQ(StringToDouble("-qaz.AyN", 36), -qaz.AyN);
 }
-TEST(Desyat, Test5)
-{
-	//ASSERT_DOUBLE_EQUAL();
-}
+
 
