@@ -15,9 +15,9 @@ TEST(Desyat, Test3)
 {
 	ASSERT_DOUBLE_EQ(StringToDouble("-123.", 10), -123);
 }
-TEST(Desyat, Test4)
+/*TEST(Desyat, Test4)
 {
 	ASSERT_DOUBLE_EQ(StringToDouble("-qaz.AyN", 36), -qaz.AyN);
-}
+}*/
 
 
