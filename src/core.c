@@ -1,4 +1,7 @@
-
+#include "../includes/libr.h"
+#include <math.h>
+#include <string.h>
+#include <stdbool.h>
 int CharToDigit(char c)
 {
 	if ('0' <= c && c <= '9')
