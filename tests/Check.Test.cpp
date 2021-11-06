@@ -5,7 +5,7 @@ extern "C"
 }
 TEST(Desyat, Test1)
 {
-	ASSERT_DOUBLE_EQ(StringToDouble('123.456', 10), 123.456);
+	ASSERT_DOUBLE_EQ(StringToDouble("123.456", 10), 123.456);
 }
 TEST(Desyat, Test2)
 {
